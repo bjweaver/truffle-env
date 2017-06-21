@@ -12,7 +12,7 @@ apt-get update
 # apt-get upgrade -y
 
 apt-get install -y git python dstat ntp nodejs build-essential \
-	solc ethereum
+	solc ethereum openjdk-8-jdk maven
 
 service ntp reload
 
